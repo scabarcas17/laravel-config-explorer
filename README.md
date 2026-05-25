@@ -4,7 +4,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/scabarcas/laravel-config-explorer.svg)](https://packagist.org/packages/scabarcas/laravel-config-explorer)
 [![Total Downloads](https://img.shields.io/packagist/dt/scabarcas/laravel-config-explorer.svg)](https://packagist.org/packages/scabarcas/laravel-config-explorer)
 [![PHP Version](https://img.shields.io/packagist/php-v/scabarcas/laravel-config-explorer.svg)](https://packagist.org/packages/scabarcas/laravel-config-explorer)
-[![License](https://img.shields.io/packagist/l/scabarcas/laravel-config-explorer.svg)](https://github.com/scabarcas17/laravel-config-explorer/blob/main/LICENSE)
+[![License](https://img.shields.io/packagist/l/scabarcas/laravel-config-explorer.svg?v=0.1.0)](https://github.com/scabarcas17/laravel-config-explorer/blob/main/LICENSE)
 
 A beautiful, searchable browser for your Laravel runtime configuration — the `phpinfo()` of `config()`.
 
