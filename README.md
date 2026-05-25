@@ -1,5 +1,11 @@
 # Laravel Config Explorer
 
+[![CI](https://github.com/scabarcas17/laravel-config-explorer/actions/workflows/ci.yml/badge.svg)](https://github.com/scabarcas17/laravel-config-explorer/actions/workflows/ci.yml)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/scabarcas/laravel-config-explorer.svg)](https://packagist.org/packages/scabarcas/laravel-config-explorer)
+[![Total Downloads](https://img.shields.io/packagist/dt/scabarcas/laravel-config-explorer.svg)](https://packagist.org/packages/scabarcas/laravel-config-explorer)
+[![PHP Version](https://img.shields.io/packagist/php-v/scabarcas/laravel-config-explorer.svg)](https://packagist.org/packages/scabarcas/laravel-config-explorer)
+[![License](https://img.shields.io/packagist/l/scabarcas/laravel-config-explorer.svg)](https://github.com/scabarcas17/laravel-config-explorer/blob/main/LICENSE)
+
 A beautiful, searchable browser for your Laravel runtime configuration — the `phpinfo()` of `config()`.
 
 `php artisan config:show <key>` is great when you know what you're looking for. Config Explorer is for the moments you don't: scan every merged config entry across your app and its packages, filter by group, and grep through values instantly. Built for local debugging.
