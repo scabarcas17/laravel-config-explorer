@@ -73,6 +73,10 @@ composer analyse
 composer format
 ```
 
+## Author
+
+**Sebastian Cabarcas Berrio** &middot; <sebastianberrio45@hotmail.com> &middot; [@scabarcas17](https://github.com/scabarcas17)
+
 ## License
 
-MIT &copy; Sebastian Cabarcas
+MIT &copy; Sebastian Cabarcas Berrio
