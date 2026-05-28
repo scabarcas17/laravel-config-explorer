@@ -6,9 +6,9 @@
 [![PHP Version](https://img.shields.io/packagist/php-v/scabarcas/laravel-config-explorer.svg)](https://packagist.org/packages/scabarcas/laravel-config-explorer)
 [![License](https://img.shields.io/packagist/l/scabarcas/laravel-config-explorer.svg?v=0.1.0)](https://github.com/scabarcas17/laravel-config-explorer/blob/main/LICENSE)
 
-A beautiful, searchable browser for your Laravel runtime configuration — the `phpinfo()` of `config()`.
+Browse and search Laravel's runtime config() tree in the browser. For local debugging.
 
-`php artisan config:show <key>` is great when you know what you're looking for. Config Explorer is for the moments you don't: scan every merged config entry across your app and its packages, filter by group, and grep through values instantly. Built for local debugging.
+`php artisan config:show <key>` retrieves a specific value. This package renders the full merged config tree at runtime and supports filtering by group and searching by key or value. Useful when you don't know the exact key you're looking for.
 
 ## Installation
 
@@ -64,7 +64,7 @@ To expose the explorer behind authentication in a non-local environment (e.g. st
 
 Configuration data routinely contains credentials. Config Explorer redacts keys matching the `redact_patterns` list before rendering. The defaults cover common cases (`*password*`, `*secret*`, `*token*`, `*api_key*`, `app.key`, `services.*.secret`, `database.connections.*.password`, `mail.mailers.*.password`) but **review the list for your app before enabling this anywhere other than your local machine**.
 
-The route also emits `<meta name="robots" content="noindex, nofollow">` and ships with auto-detection that returns 404 in production. Treat any deliberate production enablement as a deliberate decision that requires authentication.
+The route also emits `<meta name="robots" content="noindex, nofollow">` and ships with auto-detection that returns 404 in production. If you enable it in production, gate it behind authentication.
 
 ## Why?
 
