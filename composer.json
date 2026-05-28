@@ -1,6 +1,6 @@
 {
     "name": "scabarcas/laravel-config-explorer",
-    "description": "A beautiful, searchable browser for Laravel runtime configuration — the phpinfo() of config().",
+    "description": "Browse and search Laravel's runtime config() tree in the browser. For local debugging.",
     "type": "library",
     "require": {
         "php": "^8.3",
